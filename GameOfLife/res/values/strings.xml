@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conway\'s Game of Life</string>
+    <string name="main_title">Conway\'s Game of Life</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_grid_label">New Grid</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_text">
+      The Game of Life is a cellular automaton.  Each
+      generation, a live cell continues living only if it is
+      bordered by exactly 2 or 3 other live cells, and a
+      dead cell comes to life only if it is bordered by
+      exactly 2 live cells.  The border cells of a cell are
+      considered to be the ring of 8 cells surrounding it.
+    </string>
+    <string name="game_of_life_title">Conway\'s Game of Life</string>
+    <string name="about_title">About Conway\'s Game of Life</string>
+</resources>
