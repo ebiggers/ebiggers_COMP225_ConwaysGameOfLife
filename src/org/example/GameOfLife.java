@@ -80,6 +80,8 @@ public class GameOfLife extends Activity implements Handler.Callback
         grid[31][31] = 1;
         grid[32][31] = 1;
 
+        handler = new Handler(this);
+
         updaterThread = new Thread(new Runnable() {
             public void run() {
                 while (true) {
@@ -92,6 +94,5 @@ public class GameOfLife extends Activity implements Handler.Callback
             }
         });
         updaterThread.start();
-        handler = new Handler(this);
     }
 }
