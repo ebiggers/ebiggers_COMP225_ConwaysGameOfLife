@@ -1,9 +1,0 @@
-# view AndroidManifest.xml #generated:16
--keep class org.example.About { <init>(...); }
-
-# view AndroidManifest.xml #generated:14
--keep class org.example.GameOfLife { <init>(...); }
-
-# view AndroidManifest.xml #generated:7
--keep class org.example.MainActivity { <init>(...); }
-
